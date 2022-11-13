@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background: url(bg-04.jpg);
+    
+    background-position: center;
+    background-size: cover;
+    height: 145vh;
+}
+
+
+.navbar-brand img{
+   
+    height: 100;
+}
+
+.navbar-toggler {
+    background: rgb(252, 244, 244);
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+}
+
+.navbar-toggler span{   
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background: rgb(10, 10, 10);
+}
+
+.navbar-toggler span + span{   
+    margin-top: 4px;
+    width: 18px;
+    margin-left: 4px;
+}
+
+.navbar-toggler span + span + span{   
+    width: 10px;
+    margin-left: 10px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    transition: .4s;
+    
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    background: rgb(248, 241, 241);
+    color: black;
+    transform: scale(1.1);
+    
+   
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.active{
+    
+    color: #ecdcdc;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.active:hover{
+    background: rgb(248, 241, 241);
+    color: black;
+    transform: scale(1.1);
+    
+}
+
+/*.navbar-nav button{
+    padding: 1.2rem 0;
+    color: #3a974e;
+}
+
+.navbar-nav .btn{
+    background-color: #3a974e;
+    color: white;
+    border-radius: 0;
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+    margin-top: -10px;
+}
+
+.navbar-nav .btn:hover{
+    background-color: #dde3e7;
+}*/
+
+.content{
+    width: 1100px;
+    height: auto;
+    margin: auto;
+    color: rgb(245, 215, 215);
+    position: relative;
+}
+
+.content .para1{
+    padding-left: 370px;
+    padding-bottom: 25px;
+    font-family: Helvetica;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+
+}
+
+.content .para2{
+    padding-left: 250px;
+    padding-bottom: 25px;
+    font-family: Helvetica;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+   
+
+}
+
+.content h5{
+    font-family: 'Gill Sans';
+    font-size: 20px;
+    padding-left: 300px;
+    margin-top: 9%;
+    list-style: 2px;
+}
+
+.content h1{
+    font-family: 'Gill Sans';
+    font-size: 40px;
+    padding-left: 220px;
+    margin-top: 2%;
+    list-style: 2px;
+}
+
+.content h4{
+    font-family: 'Gill Sans';
+    font-size: 20px;
+    padding-left: 430px;
+    margin-top: 2%;
+    list-style: 2px;
+}
+
